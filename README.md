@@ -92,7 +92,9 @@ src/
 
    Ensure your .NET backend API is running and accessible at `http://localhost:5000`.
 
-2. **Start the React application:**
+   You can access swagger by navigating to `http://localhost:5000/swagger`
+
+3. **Start the React application:**
 
    ```bash
    npm start
