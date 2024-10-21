@@ -10,6 +10,7 @@ This is a simplified and attractive React application that allows users to inter
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Challenges](#challenges)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -56,7 +57,7 @@ This is a simplified and attractive React application that allows users to inter
 
    Ensure your .NET backend API is running and accessible at `http://localhost:5000`.
 
-   You can access swagger by navigating to `http://localhost:5000/swagger`
+   You can access Swagger by navigating to `http://localhost:5000/swagger`
 
 3. **View the React application:**
 
@@ -90,6 +91,14 @@ The frontend communicates with the backend API using the following endpoints:
 - **POST /api/starships**: Create a new starship.
 - **PUT /api/starships/{id}**: Update an existing starship.
 - **DELETE /api/starships/{id}**: Delete a starship.
+
+## Challenges
+
+There were some unique challenges to this coding exercise.
+
+- **Seeding: Seeding was a fun challenge.  I had to figure out a reasonable way to not seed with every docker load.
+- **Docker Setup: The Docker setup took a bit of work! I had some issues communicating between the API and the front end.
+- **Design: I wanted to create an attractive design without making it too complex.  I tried several approaches and landed on this one.  This design is simple yet elegant.  It runs on both desktop and mobile without needing additional work.  
 
 ## Contributing
 
