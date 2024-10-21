@@ -96,9 +96,9 @@ The frontend communicates with the backend API using the following endpoints:
 
 There were some unique challenges to this coding exercise.
 
-- **Seeding: Seeding was a fun challenge.  I had to figure out a reasonable way to not seed with every docker load.
-- **Docker Setup: The Docker setup took a bit of work! I had some issues communicating between the API and the front end.
-- **Design: I wanted to create an attractive design without making it too complex.  I tried several approaches and landed on this one.  This design is simple yet elegant.  It runs on both desktop and mobile without needing additional work.  
+- **Seeding**: Seeding was a fun challenge.  I had to figure out a reasonable way to not seed with every docker load.
+- **Docker Setup**: The Docker setup took a bit of work! I had some issues communicating between the API and the front end.
+- **Design**: I wanted to create an attractive design without making it too complex.  I tried several approaches and landed on this one.  This design is simple yet elegant.  It runs on both desktop and mobile without needing additional work.  
 
 ## Contributing
 
