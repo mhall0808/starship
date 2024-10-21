@@ -7,7 +7,6 @@ This is a simplified and attractive React application that allows users to inter
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
@@ -57,11 +56,6 @@ src/
 - Bootstrap Icons
 - .NET Backend API
 - XUnit for testing
-
-## Prerequisites
-
-- Node.js and npm installed on your machine.
-- Access to the .NET backend API running at `http://localhost:5000`.
 
 ## Installation
 
