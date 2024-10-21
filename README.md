@@ -72,33 +72,23 @@ src/
    cd star-wars-starships-app
    ```
 
-2. **Install dependencies:**
+2. **Run the Docker container:**
 
    ```bash
-   npm install
-   ```
-
-3. **Install Bootstrap and Bootstrap Icons:**
-
-   (Already included in dependencies, but ensure they are installed.)
-
-   ```bash
-   npm install bootstrap bootstrap-icons react-bootstrap
+   docker-compose up --build
    ```
 
 ## Running the Application
 
-1. **Start the backend server:**
+#### Docker should immediately install all the dependencies for ease of use.  Once migrations and seedings are completed, your project should be online.
+
+1. **View the backend server:**
 
    Ensure your .NET backend API is running and accessible at `http://localhost:5000`.
 
    You can access swagger by navigating to `http://localhost:5000/swagger`
 
-3. **Start the React application:**
-
-   ```bash
-   npm start
-   ```
+3. **View the React application:**
 
    The app will run in development mode. Open `http://localhost:3000` to view it in the browser.
 
