@@ -1,0 +1,115 @@
+/* App.css */
+
+/* Ensure the html and body take up the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a dark blue background for the entire app */
+body {
+  background-color: #20232a; /* Dark blue React theme color */
+  color: #61dafb; /* React logo blue for text */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Ensure the root div takes the full height */
+#root {
+  height: 100%;
+}
+
+/* Make the Container component take full height */
+.full-height-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #20232a; /* Dark blue background */
+}
+
+/* Darker theme for cards */
+.card {
+  background-color: #282c34; /* Darker shade for contrast */
+  border: 1px solid #333;
+  color: #ffffff; /* White text */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: #282c34; /* Text color to contrast the button */
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #40a4d8; /* Slightly darker hover */
+  border-color: #40a4d8;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: #b02a37;
+  border-color: #b02a37;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+  background-color: #1e7e34;
+  border-color: #1e7e34;
+}
+
+/* Darker modal style */
+.modal-content {
+  background-color: #2c2c2e;
+  color: #ffffff;
+}
+
+/* Dark theme for form inputs */
+.form-control {
+  background-color: #3a3a3c;
+  color: #ffffff;
+  border: 1px solid #5a5a5c;
+}
+
+.form-control::placeholder {
+  color: #b1b1b3;
+}
+
+/* Dark theme for Alert component */
+.alert {
+  background-color: #2c2c2e;
+  color: #ffffff;
+  border-color: #333;
+}
+
+/* Custom icon color */
+.bi-rocket-takeoff-fill {
+  color: #61dafb; /* React blue for the rocket icon */
+}
+
+/* Dark theme for the header */
+h1 {
+  color: #61dafb;
+}
+
+/* Adjust text-muted color */
+.text-muted {
+  color: #b1b1b3 !important;
+}
