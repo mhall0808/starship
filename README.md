@@ -55,7 +55,8 @@ src/
 - Axios for HTTP requests
 - Bootstrap and React Bootstrap for styling
 - Bootstrap Icons
-- .NET Backend API (not included in this repository)
+- .NET Backend API
+- XUnit for testing
 
 ## Prerequisites
 
