@@ -1,5 +1,3 @@
-// src/components/StarshipCard.tsx
-
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Starship } from '../api/api';

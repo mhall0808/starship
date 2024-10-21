@@ -1,12 +1,9 @@
-// src/App.tsx
-
 import React, { useState } from 'react';
 import { Container, Spinner, Alert, Button } from 'react-bootstrap';
-import './App.css'; // Custom styles for dark theme
+import './App.css';
 import StarshipCard from './components/StarshipCard';
 import StarshipModal from './components/StarshipModal';
 import { useStarships } from './hooks/useStarships';
-import { Starship, StarshipCreate, StarshipUpdate } from './api/api';
 
 const App: React.FC = () => {
   const {

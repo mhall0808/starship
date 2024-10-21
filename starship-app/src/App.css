@@ -8,7 +8,6 @@ body {
   padding: 0;
 }
 
-/* Set a dark blue background for the entire app */
 body {
   background-color: #20232a; /* Dark blue React theme color */
   color: #61dafb; /* React logo blue for text */
@@ -27,27 +26,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #20232a; /* Dark blue background */
+  background-color: #20232a; 
 }
 
-/* Darker theme for cards */
 .card {
-  background-color: #282c34; /* Darker shade for contrast */
+  background-color: #282c34;
   border: 1px solid #333;
-  color: #ffffff; /* White text */
+  color: #ffffff;
 }
 
 /* Button styling */
 .btn-primary {
   background-color: #61dafb;
   border-color: #61dafb;
-  color: #282c34; /* Text color to contrast the button */
+  color: #282c34; 
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #40a4d8; /* Slightly darker hover */
+  background-color: #40a4d8; 
   border-color: #40a4d8;
 }
 
@@ -75,13 +73,11 @@ body {
   border-color: #1e7e34;
 }
 
-/* Darker modal style */
 .modal-content {
   background-color: #2c2c2e;
   color: #ffffff;
 }
 
-/* Dark theme for form inputs */
 .form-control {
   background-color: #3a3a3c;
   color: #ffffff;
@@ -92,7 +88,6 @@ body {
   color: #b1b1b3;
 }
 
-/* Dark theme for Alert component */
 .alert {
   background-color: #2c2c2e;
   color: #ffffff;
@@ -101,15 +96,13 @@ body {
 
 /* Custom icon color */
 .bi-rocket-takeoff-fill {
-  color: #61dafb; /* React blue for the rocket icon */
+  color: #61dafb;
 }
 
-/* Dark theme for the header */
 h1 {
   color: #61dafb;
 }
 
-/* Adjust text-muted color */
 .text-muted {
   color: #b1b1b3 !important;
 }

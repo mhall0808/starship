@@ -1,5 +1,3 @@
-// src/components/StarshipModal.tsx
-
 import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { Starship, StarshipCreate, StarshipUpdate } from '../api/api';

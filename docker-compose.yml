@@ -30,9 +30,9 @@ services:
     build: ./starship-app
     container_name: starshipapp
     ports:
-      - "3000:80"  # Expose the React app on port 3000
+      - "3000:80"  
     depends_on:
-      - api  # Ensure the API is running before starting the frontend
+      - api  
     networks:
       - starship-network
 

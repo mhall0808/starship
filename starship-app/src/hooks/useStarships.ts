@@ -1,5 +1,3 @@
-// src/hooks/useStarships.ts
-
 import { useState, useEffect } from 'react';
 import {
   getRandomStarship,
