@@ -62,7 +62,7 @@ src/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/star-wars-starships-app.git
+   git clone https://github.com/mhall0808/starship.git
    cd star-wars-starships-app
    ```
 
