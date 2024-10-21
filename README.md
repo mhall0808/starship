@@ -5,7 +5,6 @@ This is a simplified and attractive React application that allows users to inter
 ## Table of Contents
 
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
@@ -23,29 +22,6 @@ This is a simplified and attractive React application that allows users to inter
 - Delete starships.
 - Attractive and responsive UI using Bootstrap.
 - Clean code with proper folder structure and custom hooks.
-
-## Project Structure
-
-```
-src/
-├── api/
-│   └── api.ts
-├── components/
-│   ├── StarshipCard.tsx
-│   └── StarshipModal.tsx
-├── hooks/
-│   └── useStarships.ts
-├── App.tsx
-├── App.css
-└── index.tsx
-```
-
-- **api/**: Contains API functions for interacting with the backend.
-- **components/**: Reusable React components.
-- **hooks/**: Custom hooks for managing starship data.
-- **App.tsx**: Main application component.
-- **App.css**: Global styles.
-- **index.tsx**: Entry point of the application.
 
 ## Technologies Used
 
